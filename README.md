@@ -8,7 +8,7 @@ You are a Hungarian Windows/Linux user. You just bought a new Mac. You don't kno
 Download the `.keylayout` file from here, and copy it to `/Library/Keyboard Layouts/` on your Mac. In the keyboard options, go to Input Sources > Edit > +. In there, select Other, and you'll see the new layout there. Add it and enjoy.
 
 ## Attributions
-The layout is based on the wonderful work of the guys at [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master), I just extended it with all the keys you can reach with Option / Alt Gr on a standard Hungarian keyboard.
+The layout is based on the wonderful work of the guys at [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master), I just extended it with all the keys you can reach with `Alt Gr` (aka. `Option`) on a standard Hungarian keyboard.
 
 The layout was edited using [Ukulele](https://software.sil.org/ukelele/).
 
