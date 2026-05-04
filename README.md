@@ -1,17 +1,20 @@
-# Vanilla HU Windows Keyboard Layout for MacOS
-A simple, one file, no dependencies solution for your HU Windows Keyboard Layout needs on MacOS.
+# "Vanilla" HU Windows billentyűzetkiosztás MacOS-re
+Egy egyszerű, egyfájlos, függőségek nélküli megoldás a HU Windows billentyűzetkiosztás használatára MacOS-en.
 
-## The problem I'm trying to solve
-You are a Hungarian Windows/Linux user. You just bought a new Mac. You don't know how to use the freaking keyboard, and have no interest in learning the proprietary MacOS keyboard layout.
+## A probléma, amit meg szeretnék oldani
+Magyar Windows/Linux felhasználó vagy. Most vettél egy új Mac-et. Fogalmad sincs, hogyan kell használni azt a nyomorult billentyűzetet, és semmi kedved megtanulni a MacOS saját billentyűzetkiosztását.
 
-## My solution
-Download the `.keylayout` file from here, and copy it to `/Library/Keyboard Layouts/` on your Mac. In the keyboard options, go to Input Sources > Edit > +. In there, select Other, and you'll see the new layout there. Add it and enjoy.
+## Az én megoldásom
+Töltsd le innen a `.keylayout` fájlt, majd másold be a `/Library/Keyboard Layouts/` mappába a Mac-eden. A billentyűzet beállításoknál menj az `Input Sources > Edit > +` menüpontra. Ott válaszd az Other lehetőséget, és látni fogod az új kiosztást. Add hozzá, és használd egészséggel.
 
-## Attributions
-The layout is based on the wonderful work of the guys at [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master), I just extended it with all the keys you can reach with `Alt Gr` (aka. `Option`) on a standard Hungarian keyboard.
+<img width="719" height="920" alt="image" src="https://github.com/user-attachments/assets/980d6fd6-6061-4471-8d3c-24a295f5a041" />
 
-The layout was edited using [Ukulele](https://software.sil.org/ukelele/).
 
-## Contributing
-Contributions are welcome. If something is wrong with the layout, please do open an issue or PR.
-Please, however, **keep in mind that the aim is to recreate the Windows HU keyboard layout on MacOS**, not to create a custom layout.
+## Köszönetnyilvánítás
+A kiosztás a [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master) készítőinek nagyszerű munkáján alapul, én csak kiegészítettem az összes olyan billentyűvel, amit egy szabványos magyar billentyűzeten `Alt Gr` (más néven `Option`) segítségével el lehet érni.
+
+A kiosztás szerkesztése a [Ukulele](https://software.sil.org/ukelele/) segítségével történt.
+
+## Közreműködés
+A hozzájárulásokat szívesen fogadjuk. Ha valami nem működik megfelelően a kiosztásban, kérlek nyiss egy issue-t vagy pull requestet.
+Viszont kérlek, **tartsd szem előtt, hogy a cél a Windows HU billentyűzetkiosztás újraalkotása MacOS-en**, nem pedig egy egyedi kiosztás létrehozása.
