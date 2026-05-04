@@ -1,3 +1,5 @@
+*For English, click [here](README-EN.md)*
+
 # "Vanilla" HU Windows billentyűzetkiosztás MacOS-re
 Egy egyszerű, egyfájlos, függőségek nélküli megoldás a HU Windows billentyűzetkiosztás használatára MacOS-en.
 
