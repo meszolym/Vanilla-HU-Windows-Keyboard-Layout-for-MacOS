@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 457 on 2026-05-04 at 21:44 (GMT+2)-->
+<!--Last edited by Ukelele version 457 on 2026-05-04 at 22:22 (GMT+2)-->
 <!---->
-<keyboard group="126" id="-23224" name="HU Vanilla Win" maxout="1">
+<keyboard group="126" id="-2140" name="HU Vanilla Win" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
@@ -45,11 +45,11 @@
         <keyMap index="0">
             <key code="0" action="9"/>
             <key code="1" action="23"/>
-            <key code="2" output="d"/>
+            <key code="2" action="d"/>
             <key code="3" output="f"/>
             <key code="4" output="h"/>
             <key code="5" output="g"/>
-            <key code="6" output="y"/>
+            <key code="6" action="y"/>
             <key code="7" output="x"/>
             <key code="8" action="15"/>
             <key code="9" output="v"/>
@@ -60,7 +60,7 @@
             <key code="14" action="17"/>
             <key code="15" action="21"/>
             <key code="16" action="26"/>
-            <key code="17" output="t"/>
+            <key code="17" action="t"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -77,7 +77,7 @@
             <key code="31" action="10"/>
             <key code="32" action="11"/>
             <key code="33" output="ő"/>
-            <key code="34" output="i"/>
+            <key code="34" action="i"/>
             <key code="35" output="p"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="13"/>
@@ -157,11 +157,11 @@
         <keyMap index="1">
             <key code="0" action="6"/>
             <key code="1" action="22"/>
-            <key code="2" output="D"/>
+            <key code="2" action="D"/>
             <key code="3" output="F"/>
             <key code="4" output="H"/>
             <key code="5" output="G"/>
-            <key code="6" output="Y"/>
+            <key code="6" action="Y"/>
             <key code="7" output="X"/>
             <key code="8" action="14"/>
             <key code="9" output="V"/>
@@ -189,7 +189,7 @@
             <key code="31" action="7"/>
             <key code="32" action="8"/>
             <key code="33" output="Ő"/>
-            <key code="34" output="I"/>
+            <key code="34" action="I"/>
             <key code="35" output="P"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="12"/>
@@ -398,17 +398,17 @@
             <key code="16" output=""/>
             <key code="17" output=""/>
             <key code="18" output="~"/>
-            <key code="19" output="ˇ"/>
-            <key code="20" output="^"/>
-            <key code="21" output="˘"/>
-            <key code="22" output="˛"/>
-            <key code="23" output="°"/>
-            <key code="24" output="¸"/>
-            <key code="25" output="´"/>
+            <key code="19" action="ˇ"/>
+            <key code="20" action="^"/>
+            <key code="21" action="˘"/>
+            <key code="22" action="˛"/>
+            <key code="23" action="°"/>
+            <key code="24" action="¸"/>
+            <key code="25" action="´"/>
             <key code="26" output="`"/>
-            <key code="27" output="¨"/>
-            <key code="28" output="˙"/>
-            <key code="29" output="˝"/>
+            <key code="27" action="¨"/>
+            <key code="28" action="˙"/>
+            <key code="29" action="˝"/>
             <key code="30" output="×"/>
             <key code="31" output=""/>
             <key code="32" output="€"/>
@@ -948,75 +948,124 @@
         </action>
         <action id="10">
             <when state="none" output="o"/>
+            <when state="altgr3" output="ô"/>
+            <when state="altgr9" output="ó"/>
+            <when state="altgrö" output="ő"/>
+            <when state="altgrü" output="ö"/>
             <when state="s1" output="ö"/>
             <when state="s2" output="ô"/>
             <when state="s4" output="õ"/>
         </action>
         <action id="11">
             <when state="none" output="u"/>
+            <when state="altgr5" output="ů"/>
+            <when state="altgr9" output="ú"/>
+            <when state="altgrö" output="ű"/>
+            <when state="altgrü" output="ü"/>
             <when state="s1" output="ü"/>
         </action>
         <action id="12">
             <when state="none" output="L"/>
+            <when state="altgr9" output="Ĺ"/>
             <when state="s3" output="Ł"/>
         </action>
         <action id="13">
             <when state="none" output="l"/>
+            <when state="altgr9" output="ĺ"/>
             <when state="s3" output="ł"/>
         </action>
         <action id="14">
             <when state="none" output="C"/>
+            <when state="altgr2" output="Č"/>
+            <when state="altgr9" output="Ć"/>
+            <when state="altgró" output="Ç"/>
             <when state="s5" output="Č"/>
         </action>
         <action id="15">
             <when state="none" output="c"/>
+            <when state="altgr2" output="č"/>
+            <when state="altgr9" output="ć"/>
+            <when state="altgró" output="ç"/>
             <when state="s5" output="č"/>
         </action>
         <action id="16">
             <when state="none" output="E"/>
+            <when state="altgr2" output="Ě"/>
+            <when state="altgr6" output="Ę"/>
+            <when state="altgr9" output="É"/>
+            <when state="altgrü" output="Ë"/>
             <when state="s5" output="Ě"/>
         </action>
         <action id="17">
             <when state="none" output="e"/>
+            <when state="altgr2" output="ě"/>
+            <when state="altgr6" output="ę"/>
+            <when state="altgr9" output="é"/>
+            <when state="altgrü" output="ë"/>
             <when state="s5" output="ě"/>
         </action>
         <action id="18">
             <when state="none" output="N"/>
+            <when state="altgr2" output="Ň"/>
+            <when state="altgr9" output="Ń"/>
             <when state="s5" output="Ň"/>
         </action>
         <action id="19">
             <when state="none" output="n"/>
+            <when state="altgr2" output="ň"/>
+            <when state="altgr9" output="ń"/>
             <when state="s5" output="ň"/>
         </action>
         <action id="2">
             <when state="none" next="s3"/>
         </action>
+        <action id="2 1">
+            <when state="none" next="altgr2"/>
+        </action>
         <action id="20">
             <when state="none" output="R"/>
+            <when state="altgr2" output="Ř"/>
+            <when state="altgr9" output="Ŕ"/>
             <when state="s5" output="Ř"/>
         </action>
         <action id="21">
             <when state="none" output="r"/>
+            <when state="altgr2" output="ř"/>
+            <when state="altgr9" output="ŕ"/>
             <when state="s5" output="ř"/>
         </action>
         <action id="22">
             <when state="none" output="S"/>
+            <when state="altgr2" output="Š"/>
+            <when state="altgr9" output="Ś"/>
+            <when state="altgró" output="Ş"/>
             <when state="s5" output="Š"/>
         </action>
         <action id="23">
             <when state="none" output="s"/>
+            <when state="altgr2" output="š"/>
+            <when state="altgr9" output="ś"/>
+            <when state="altgró" output="ş"/>
             <when state="s5" output="š"/>
         </action>
         <action id="24">
             <when state="none" output="T"/>
+            <when state="altgr2" output="Ť"/>
+            <when state="altgró" output="Ţ"/>
             <when state="s5" output="Ť"/>
         </action>
         <action id="25">
             <when state="none" output="Z"/>
+            <when state="altgr2" output="Ž"/>
+            <when state="altgr8" output="Ż"/>
+            <when state="altgr9" output="Ź"/>
             <when state="s5" output="Ž"/>
         </action>
         <action id="26">
             <when state="none" output="z"/>
+            <when state="altgr2" output="ž"/>
+            <when state="altgr8" output="ż"/>
+            <when state="altgr9" output="ź"/>
             <when state="s5" output="ž"/>
         </action>
         <action id="3">
@@ -1035,24 +1084,119 @@
         </action>
         <action id="6">
             <when state="none" output="A"/>
+            <when state="altgr3" output="Â"/>
+            <when state="altgr4" output="Ă"/>
+            <when state="altgr6" output="Ą"/>
+            <when state="altgr9" output="Á"/>
+            <when state="altgrü" output="Ä"/>
             <when state="s1" output="Ä"/>
         </action>
         <action id="7">
             <when state="none" output="O"/>
+            <when state="altgr3" output="Ô"/>
+            <when state="altgr9" output="Ó"/>
+            <when state="altgrö" output="Ő"/>
+            <when state="altgrü" output="Ö"/>
             <when state="s1" output="Ö"/>
             <when state="s2" output="Ô"/>
             <when state="s4" output="Õ"/>
         </action>
+        <action id="7 1">
+            <when state="none" next="Dead Key State 0"/>
+        </action>
         <action id="8">
             <when state="none" output="U"/>
+            <when state="altgr5" output="Ů"/>
+            <when state="altgr9" output="Ú"/>
+            <when state="altgrö" output="Ű"/>
+            <when state="altgrü" output="Ü"/>
             <when state="s1" output="Ü"/>
         </action>
         <action id="9">
             <when state="none" output="a"/>
+            <when state="altgr3" output="â"/>
+            <when state="altgr4" output="ă"/>
+            <when state="altgr6" output="ą"/>
+            <when state="altgr9" output="á"/>
+            <when state="altgrü" output="ä"/>
             <when state="s1" output="ä"/>
+        </action>
+        <action id="D">
+            <when state="none" output="D"/>
+            <when state="altgr2" output="Ď"/>
+        </action>
+        <action id="I">
+            <when state="none" output="I"/>
+            <when state="altgr3" output="Î"/>
+            <when state="altgr9" output="Í"/>
+        </action>
+        <action id="Y">
+            <when state="none" output="Y"/>
+            <when state="altgr9" output="Ý"/>
+        </action>
+        <action id="^">
+            <when state="none" next="altgr3"/>
+        </action>
+        <action id="d">
+            <when state="none" output="d"/>
+            <when state="altgr2" output="ď"/>
+        </action>
+        <action id="i">
+            <when state="none" output="i"/>
+            <when state="altgr3" output="î"/>
+            <when state="altgr9" output="í"/>
+        </action>
+        <action id="t">
+            <when state="none" output="t"/>
+            <when state="altgr2" output="ť"/>
+            <when state="altgró" output="ţ"/>
+        </action>
+        <action id="y">
+            <when state="none" output="y"/>
+            <when state="altgr9" output="ý"/>
+        </action>
+        <action id="¨">
+            <when state="none" next="altgrü"/>
+        </action>
+        <action id="°">
+            <when state="none" next="altgr5"/>
+            <when state="altgr5" output="°"/>
+        </action>
+        <action id="´">
+            <when state="none" next="altgr9"/>
+        </action>
+        <action id="¸">
+            <when state="none" next="altgró"/>
+        </action>
+        <action id="ˇ">
+            <when state="none" next="altgr2"/>
+        </action>
+        <action id="˘">
+            <when state="none" next="altgr4"/>
+        </action>
+        <action id="˙">
+            <when state="none" next="altgr8"/>
+            <when state="altgr8" output="˙"/>
+        </action>
+        <action id="˛">
+            <when state="none" next="altgr6"/>
+        </action>
+        <action id="˝">
+            <when state="none" next="altgrö"/>
         </action>
     </actions>
     <terminators>
+        <when state="Dead Key State 0" output=""/>
+        <when state="altgr2" output="ˇ"/>
+        <when state="altgr3" output="^"/>
+        <when state="altgr4" output="˘"/>
+        <when state="altgr5" output="°"/>
+        <when state="altgr6" output="˛"/>
+        <when state="altgr8" output="˙"/>
+        <when state="altgr9" output="´"/>
+        <when state="altgró" output="¸"/>
+        <when state="altgrö" output="˝"/>
+        <when state="altgrü" output="¨"/>
         <when state="s1" output="¨"/>
         <when state="s2" output="^"/>
         <when state="s3" output="–"/>
