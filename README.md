@@ -15,7 +15,7 @@ Töltsd le innen a `.keylayout` fájlt, majd másold be a `/Library/Keyboard Lay
 ## Köszönetnyilvánítás
 A kiosztás a [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master) készítőinek nagyszerű munkáján alapul, én csak kiegészítettem az összes olyan billentyűvel, amit egy szabványos magyar billentyűzeten `Alt Gr` (más néven `Option`) segítségével el lehet érni.
 
-A kiosztás szerkesztése a [Ukulele](https://software.sil.org/ukelele/) segítségével történt.
+A kiosztás szerkesztése a [Ukelele](https://software.sil.org/ukelele/) segítségével történt.
 
 ## Közreműködés
 A hozzájárulásokat szívesen fogadjuk. Ha valami nem működik megfelelően a kiosztásban, kérlek nyiss egy issue-t vagy pull requestet.
