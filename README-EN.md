@@ -12,7 +12,7 @@ Download the `.keylayout` file from here, and copy it to `/Library/Keyboard Layo
 ## Attributions
 The layout is based on the wonderful work of the guys at [mac-hun-keyboard](https://github.com/zaki/mac-hun-keyboard/tree/master), I just extended it with all the keys you can reach with `Alt Gr` (aka. `Option`) on a standard Hungarian keyboard.
 
-The layout was edited using [Ukulele](https://software.sil.org/ukelele/).
+The layout was edited using [Ukelele](https://software.sil.org/ukelele/).
 
 ## Contributing
 Contributions are welcome. If something is wrong with the layout, please do open an issue or PR.
